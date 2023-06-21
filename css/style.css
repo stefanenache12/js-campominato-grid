@@ -5,3 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.mycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#play {
+    margin-top: 6.25rem;
+}
