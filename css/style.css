@@ -9,17 +9,56 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: beige;
+    background-image: url(https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?w=1380&t=st=1687356463~exp=1687357063~hmac=85a6aab90cc6381903f88d5e8352bf70a2c70c99008891fa4dd6a821c9ab69e8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Serif', serif;
+}
+
+h1 {
+    padding-top: 1.25rem;
+    color: #C316D0;
+    font-weight: 900;
 }
 
 .mycontainer {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
+    max-width: 31.75rem;
+}
+
+.facile {
+    max-width: 31.75rem;
+}
+
+.medio {
+    max-width: 29rem;
+}
+
+.legendario {
+    max-width: 23rem;
 }
 
 #play {
-    margin-top: 6.25rem;
+    margin-top: 3.125rem;
+    padding: .3125rem;
+}
+
+.select-area {
+    padding: .3125rem;
+}
+
+.cell-style {
+    height: 3.125rem;
+    width: 3.125rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border: 4px solid #B9FDFE;
+    background-color: #4941A4;
+    cursor: pointer;
+    color: white;
+}
+
+.active {
+    background-color: transparent;
 }
